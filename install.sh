@@ -46,19 +46,18 @@ ln -sf /mnt/c ~/c
 rm -f ~/projects
 ln -sf /mnt/c/Projects ~/projects
 rm -f ~/downloads
-ln -sf /mnt/c/Users/jieverson/Downloads ~/downloads
+ln -sf /mnt/c/Users/ryola/Downloads ~/downloads
 rm -f ~/pictures
-ln -sf /mnt/c/Users/jieverson/Pictures ~/pictures
+ln -sf /mnt/c/Users/ryola/Pictures ~/pictures
 echo "✔ alias for windows folders"
 
-curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 sudo apt -qq install nodejs
 sudo apt -qq install npm
 sudo apt -qq install python-pip
 echo "✔ apt dev tools installed"
 
-sudo npm install -g bower gulp grunt yo less mdpdf
-echo "✔ npm -g dev tools installed"
+# sudo npm install -g bower gulp grunt yo less mdpdf
+# echo "✔ npm -g dev tools installed"
 
 sudo apt -qq install caca-utils ranger cowsay fortune screenfetch lolcat figlet sl cmatrix
 echo "✔ other cool stuff installed"
